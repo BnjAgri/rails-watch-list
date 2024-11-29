@@ -1,1 +1,2 @@
 <h2><%= @list.name %></h2>
+<%= link_to "bookmark", new_list_bookmark_path(list_id: @list.id), class: "btn btn-primary" %>
